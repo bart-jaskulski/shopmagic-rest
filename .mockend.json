@@ -27,11 +27,10 @@
   },
   "Outcome": {
     "status": {
-      "status": {
+      "name": {
         "string": [
           "completed",
-          "failed",
-          "unknown"
+          "failed"
         ]
       }
     },
