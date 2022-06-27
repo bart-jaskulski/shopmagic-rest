@@ -1,0 +1,9 @@
+{
+  "Subscribers": {
+    "email": {"type": "string"},
+    "list": {"type": "int"},
+    "signed": {"type": "boolean"},
+    "created": {"type": "dateTime"},
+    "updated": {"type": "dateTime"}
+  }
+}
