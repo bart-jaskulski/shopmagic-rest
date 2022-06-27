@@ -1,5 +1,5 @@
 {
-  "Subscribers": {
+  "Subscriber": {
     "email": {"string":  {}},
     "list": {"int":  {
       "min": 0,
