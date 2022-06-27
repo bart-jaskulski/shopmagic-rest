@@ -1,18 +1,28 @@
 {
   "Subscriber": {
-    "email": {"string":  {}},
-    "list": {"int":  {
-      "min": 0,
-      "max": 100
-    }},
-    "signed": {"boolean":  {}},
-    "created": {"dateTime":  {
-      "min": "2022-01-01T00:00:00Z",
-      "max": "2022-12-31T23:59:59Z"
-    }},
-    "updated": {"dateTime":  {
-      "min": "2022-01-01T00:00:00Z",
-      "max": "2022-12-31T23:59:59Z"
-    }}
+    "email": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "list": {
+      "int": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "signed": {
+      "boolean": {}
+    },
+    "created": {
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2022-12-31T23:59:59Z"
+      }
+    },
+    "updated": {
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2022-12-31T23:59:59Z"
+      }
+    }
   }
 }
