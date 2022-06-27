@@ -27,12 +27,10 @@
   },
   "Outcome": {
     "status": {
-      "name": {
-        "string": [
-          "completed",
-          "failed"
-        ]
-      }
+      "string": [
+        "completed",
+        "failed"
+      ]
     },
     "automation": {
       "int": {
