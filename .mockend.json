@@ -1,9 +1,18 @@
 {
   "Subscribers": {
     "email": {"string":  {}},
-    "list": {"int":  {}},
+    "list": {"int":  {
+      "min": 0,
+      "max": 100
+    }},
     "signed": {"boolean":  {}},
-    "created": {"dateTime":  {}},
-    "updated": {"dateTime":  {}}
+    "created": {"dateTime":  {
+      "min": "2022-01-01T00:00:00Z",
+      "max": "2022-12-31T23:59:59Z"
+    }},
+    "updated": {"dateTime":  {
+      "min": "2022-01-01T00:00:00Z",
+      "max": "2022-12-31T23:59:59Z"
+    }}
   }
 }
