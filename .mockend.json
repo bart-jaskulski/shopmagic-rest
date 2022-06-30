@@ -53,8 +53,13 @@
     "error": {
       "loremParagraphs": {
         "minLength": 0,
-        "maxLength": 100
+        "maxLength": 1000
       }
+    }
+  },
+  "Client": {
+    "email": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     }
   }
 }
