@@ -64,7 +64,7 @@
   },
   "Automation": {
     "name": {
-      "loremSentence": {
+      "loremWords": {
         "minLength": 1,
         "maxLength": 5
       }
