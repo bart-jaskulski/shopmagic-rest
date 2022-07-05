@@ -32,7 +32,8 @@
     "status": {
       "string": [
         "completed",
-        "failed"
+        "failed",
+        "pending"
       ]
     },
     "automation": {
@@ -46,6 +47,12 @@
     },
     "action": {
       "loremWord": {}
+    },
+    "timestamp": {
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2022-12-31T23:59:59Z"
+      }
     },
     "updated": {
       "dateTime": {
