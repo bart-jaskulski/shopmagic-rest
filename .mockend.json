@@ -73,9 +73,6 @@
     },
     "customer_id": {
       "regexp": "([g_]{0,1}[0-9]{1,3}|[0-9]{1,3})"
-    },
-    "field": {
-      "object": {}
     }
   },
   "Automation": {
