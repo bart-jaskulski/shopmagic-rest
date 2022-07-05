@@ -80,6 +80,12 @@
         "minLength": 10,
         "maxLength": 50
       }
+    },
+    "type": {
+      "string": [
+        "opt-in",
+        "opt-out"
+      ]
     }
   }
 }
